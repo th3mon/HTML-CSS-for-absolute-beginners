@@ -45,6 +45,11 @@ a {
   }
 }
 
+.wrapper {
+  max-inline-size: 1000px;
+  margin-inline: auto;
+}
+
 .accent {
   color: #fff;
   background-color: var(--teal-light);
