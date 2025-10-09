@@ -32,6 +32,12 @@ h2 {
   color: #bf7935;
 }
 
+img {
+  display: block;
+  max-inline-size: 100%;
+  min-inline-size: 320px;
+}
+
 a {
   color: #2b930b;
 
