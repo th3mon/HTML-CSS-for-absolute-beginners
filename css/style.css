@@ -32,6 +32,19 @@ h2 {
   color: #bf7935;
 }
 
+a {
+  color: #2b930b;
+
+  &:hover,
+  &:focus-visible {
+    color: #4ba92e;
+  }
+
+  &:active {
+    color: #6eb471;
+  }
+}
+
 .accent {
   color: #fff;
   background-color: var(--teal-light);
