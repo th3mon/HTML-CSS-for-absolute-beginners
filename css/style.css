@@ -13,10 +13,6 @@ body {
   line-height: 1.5;
 }
 
-header {
-  text-align: center;
-}
-
 section {
   margin-block: 60px;
 }
@@ -67,6 +63,41 @@ a {
   h2,
   h3 {
     margin-block-start: 0;
+  }
+}
+
+.primary-header {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    min-inline-size: initial;
+  }
+}
+
+.primary-navigation {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 20px;
+  }
+
+  a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: #4ba92e;
+    }
+
+    &:active {
+      color: #6eb471;
+    }
   }
 }
 
