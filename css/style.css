@@ -61,8 +61,7 @@ a {
 
   display: grid;
   grid-template-columns: var(--template-columns);
-  column-gap: 100px;
-  row-gap: 60px;
+  gap: 60px;
   margin-block-end: 60px;
 
   @media (width > 600px) {
